@@ -8,7 +8,7 @@
 </script>
 
 <div class="container px-10 lg:px-20 mx-auto grid align-top grid-cols-1 lg:grid-cols-2">
-	<div class="lg:h-screen py-20 grid">
+	<div class="lg:h-screen py-20 grid sticky top-0">
 		<div>
 			<h1 class="h1 text-6xl">Daniel Yoo</h1>
 			<div class="my-2">
@@ -67,6 +67,63 @@ Jetson Nano) over a network-table based interface
 Taught and led a team of 8 peers throughout an intense twelve week sprint
 of competition, collaborated using git source control"
 				skills={['Java', 'Python', 'git', 'Closed loop control', 'OpenCV', 'Ubuntu']}
+			/>
+			<ExperienceCard
+				href="#"
+				image="img/colorblobs.png"
+				title="svo-raytracer"
+				description="Realtime Java/LWJGL voxel path tracer based on the paper Efficient Sparse
+					Voxel Octrees by Samuli Laine and Tero Karras. 2 bounces 1080p ~30fps, up to 2048^3 
+					world size, implemented on GPU. Created a custom octree layout to maximize memory 
+					coherency/efficiency and minimize ray traversal time"
+				skills={[
+					'Java',
+					'LWJGL',
+					'OpenGL',
+					'GLSL',
+					'GPU',
+					'Octrees',
+					'Multi-threading',
+					'Path tracer'
+				]}
+			/>
+			<ExperienceCard
+				href="#"
+				image="img/colorblobs.png"
+				title="MineNet"
+				description="Realtime Java/LWJGL voxel path tracer based on the paper Efficient Sparse
+					Voxel Octrees by Samuli Laine and Tero Karras. 2 bounces 1080p ~30fps, up to 2048^3 
+					world size, implemented on GPU. Created a custom octree layout to maximize memory 
+					coherency/efficiency and minimize ray traversal time"
+				skills={[
+					'Java',
+					'LWJGL',
+					'OpenGL',
+					'GLSL',
+					'GPU',
+					'Octrees',
+					'Multi-threading',
+					'Path tracer'
+				]}
+			/>
+			<ExperienceCard
+				href="#"
+				image="img/colorblobs.png"
+				title="Fearsha Frontend"
+				description="Realtime Java/LWJGL voxel path tracer based on the paper Efficient Sparse
+					Voxel Octrees by Samuli Laine and Tero Karras. 2 bounces 1080p ~30fps, up to 2048^3 
+					world size, implemented on GPU. Created a custom octree layout to maximize memory 
+					coherency/efficiency and minimize ray traversal time"
+				skills={[
+					'Java',
+					'LWJGL',
+					'OpenGL',
+					'GLSL',
+					'GPU',
+					'Octrees',
+					'Multi-threading',
+					'Path tracer'
+				]}
 			/>
 		</div>
 	</div>
