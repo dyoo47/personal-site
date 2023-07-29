@@ -17,7 +17,11 @@ module.exports = {
 			xl: '1280px',
 			'2xl': '1280px'
 		},
-		extend: {}
+		extend: {
+			fontFamily: {
+				mono: 'Inter'
+			}
+		}
 	},
 	plugins: [typography, ...skeleton()]
 };
