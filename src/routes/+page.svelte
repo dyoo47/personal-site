@@ -209,9 +209,9 @@
 					>
 					Deployed using
 					<a
-						href="https://kit.svelte.dev/"
+						href="https://www.netlify.com/?attr=homepage-modal"
 						target="_blank"
-						class="font-bold text-primary-50 hover:text-primary-300">SvelteKit.</a
+						class="font-bold text-primary-50 hover:text-primary-300">Netlify.</a
 					>
 					Icons from
 					<a
