@@ -26,18 +26,18 @@
 >
 	{#if image}
 		<div
-			class="h-min mr-4 rounded-md border-slate-600 border-2 group-hover:border-slate-400 transition duration-150 ease-in-out overflow-hidden"
+			class="col-span-1 max-md:hidden h-min mr-4 rounded-md border-slate-600 border-2 group-hover:border-slate-400 transition duration-150 ease-in-out overflow-hidden"
 		>
 			<img src={image} class="w-full" alt="Project preview" />
 		</div>
 	{:else}
-		<div class="col-span-1">
+		<div class="col-span-1 max-md:hidden">
 			<span class="text-xs font-semibold text-slate-400">{span.toUpperCase()}</span>
 			<br />
 			<span class="text-xs font-semibold text-slate-400">{location.toUpperCase()}</span>
 		</div>
 	{/if}
-	<div class="col-span-3">
+	<div class="col-span-3 max-md:col-span-4">
 		<h6 class="h6 text-primary-50 mb-2">
 			{title}
 			{#if disableLink}

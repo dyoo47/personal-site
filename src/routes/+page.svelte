@@ -10,7 +10,7 @@
 
 <svelte:head><title>Daniel Yoo</title></svelte:head>
 <div class="container px-10 lg:px-20 mx-auto grid align-top grid-cols-1 lg:grid-cols-2">
-	<div class="lg:h-screen py-20 grid lg:sticky lg:top-0">
+	<div class="lg:h-screen lg:pb-20 pt-20 grid lg:sticky lg:top-0 px-4">
 		<div>
 			<h1 class="h1 text-6xl">Daniel Yoo</h1>
 			<div class="my-2">
@@ -26,7 +26,7 @@
 				<Link href="#projects">PROJECTS</Link>
 			</div>
 		</div>
-		<div class="self-end flex mt-5">
+		<div class="self-end flex mt-5 max-lg:hidden">
 			<Button href="https://github.com/dyoo47/personal-site"><Fa icon={faCode} /></Button>
 			<Button href="https://github.com/dyoo47"><Fa icon={faGithub} /></Button>
 			<Button href="https://www.linkedin.com/in/danielnyoo/"><Fa icon={faLinkedin} /></Button>
@@ -34,7 +34,7 @@
 		</div>
 	</div>
 	<div class="text-slate-400 pb-20">
-		<section id="about" class="pt-20">
+		<section id="about" class="lg:pt-20">
 			<div class="px-4">
 				<span>
 					I wrote my first ever line of code in grade school for a Minecraft mod. Since then, my
@@ -179,7 +179,7 @@
 				/>
 			</section>
 			<section>
-				<p class="text-sm">
+				<p class="text-sm px-4">
 					Built in <a
 						href="https://svelte.dev/"
 						target="_blank"
