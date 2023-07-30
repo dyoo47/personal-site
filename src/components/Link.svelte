@@ -3,10 +3,12 @@
 	export let onclick: () => void = () => {};
 </script>
 
-<a class="group flex items-center my-6" {href} on:click={onclick}>
-	<hr class="inline mr-2 h-px w-8 group-hover:w-16 transition-width duration-150 ease-in-out" />
+<a class="group flex items-center w-fit py-3" {href} on:click={onclick}>
 	<span
-		class="text-xs tracking-widest font-bold text-slate-400 transition group-hover:text-primary-50"
+		class="mr-4 h-px w-8 bg-slate-400 transition-all group-hover:w-16 group-hover:bg-primary-50 group-focus-visible:w-16 group-focus-visible:bg-primary-50"
+	/>
+	<span
+		class="text-xs tracking-widest font-bold text-slate-400 transition group-hover:text-primary-50 group-focus-visible:text-primary-50"
 	>
 		<slot />
 	</span>

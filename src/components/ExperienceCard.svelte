@@ -1,8 +1,14 @@
 <script lang="ts">
 	import Fa from 'svelte-fa';
-	import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+	import { faArrowRight, faLink } from '@fortawesome/free-solid-svg-icons';
+
+	interface link {
+		label: string;
+		href: string;
+	}
 
 	export let skills: string[];
+	export let links: link[] = [];
 	export let image: string | undefined = undefined;
 	export let location: string = '';
 	export let title: string = '';
@@ -13,6 +19,7 @@
 
 <a
 	{href}
+	target="_blank"
 	class="mb-2 group grid grid-cols-4 bg-opacity-0 bg-slate-600 hover:bg-opacity-40 p-4 rounded transition duration-150 ease-in-out"
 >
 	{#if image}
@@ -24,6 +31,7 @@
 	{:else}
 		<div class="col-span-1">
 			<span class="text-xs font-semibold text-slate-400">{span.toUpperCase()}</span>
+			<br />
 			<span class="text-xs font-semibold text-slate-400">{location.toUpperCase()}</span>
 		</div>
 	{/if}
@@ -40,6 +48,22 @@
 		<p class="mb-2 text-sm">
 			{description}
 		</p>
+		<div class="mb-2">
+			<ul>
+				{#each links as link}
+					<li class="mr-4 mb-2 inline">
+						<a
+							href={link.href}
+							target="_blank"
+							class="text-sm font-medium text-primary-50 hover:text-primary-300"
+						>
+							<Fa class="inline" icon={faLink} />
+							{link.label}</a
+						>
+					</li>
+				{/each}
+			</ul>
+		</div>
 		<ul>
 			{#each skills as skill}
 				<li class="inline">

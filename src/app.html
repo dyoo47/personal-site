@@ -8,5 +8,25 @@
 	</head>
 	<body data-sveltekit-preload-data="hover" data-theme="rocket">
 		<div style="display: contents">%sveltekit.body%</div>
+
+		<script>
+			const sections = document.querySelectorAll('section');
+			const links = document.querySelectorAll('a');
+
+			window.addEventListener('scroll', () => {
+				let scrollPosition = window.scrollY + 80;
+
+				sections.forEach((section) => {
+					if (scrollPosition >= section.offsetTop) {
+						links.forEach((link) => {
+							link.classList.remove('active');
+							if (section.getAttribute('id') === link.getAttribute('href').substring(1)) {
+								link.classList.add('active');
+							}
+						});
+					}
+				});
+			});
+		</script>
 	</body>
 </html>

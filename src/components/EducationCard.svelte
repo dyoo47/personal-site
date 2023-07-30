@@ -3,11 +3,9 @@
 	export let title: string = '';
 	export let description: string;
 	export let span: string = '';
-	export let href: string;
 </script>
 
-<a
-	{href}
+<span
 	class="mb-2 group grid grid-cols-4 bg-opacity-0 bg-slate-600 hover:bg-opacity-40 p-4 rounded transition duration-150 ease-in-out"
 >
 	<div class="col-span-1">
@@ -23,4 +21,4 @@
 			{description}
 		</p>
 	</div>
-</a>
+</span>
