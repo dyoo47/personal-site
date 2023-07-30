@@ -72,7 +72,7 @@
 					title="UC San Diego"
 				/>
 				<ExperienceCard
-					href="#"
+					href="https://www.liferay.com/"
 					span="2023 - present"
 					location="Diamond Bar, CA"
 					title="SWE Intern - Liferay, Inc."
@@ -148,6 +148,7 @@
 					href="#"
 					image="img/fearsha.png"
 					title="Fearsha Frontend"
+					disableLink
 					description="Developed React/TS frontend for a payment and booking service designed for day-of 
 						booking and stat tracking in the escape games niche. 
 						Implemented static page rendering with Next.js, created queries in GraphQL to populate 

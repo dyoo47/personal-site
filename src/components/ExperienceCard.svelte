@@ -15,11 +15,13 @@
 	export let description: string;
 	export let span: string = '';
 	export let href: string;
+	export let disableLink: boolean = false;
+	let target = disableLink ? '' : '_blank';
 </script>
 
 <a
 	{href}
-	target="_blank"
+	{target}
 	class="mb-2 group grid grid-cols-4 bg-opacity-0 bg-slate-600 hover:bg-opacity-40 p-4 rounded transition duration-150 ease-in-out"
 >
 	{#if image}
@@ -38,12 +40,18 @@
 	<div class="col-span-3">
 		<h6 class="h6 text-primary-50 mb-2">
 			{title}
-			<Fa
-				icon={faArrowRight}
-				rotate={-45}
-				scale={0.8}
-				class="inline ml-2 group-hover:translate-x-1 group-hover:-translate-y-1 transition duration-150"
-			/>
+			{#if disableLink}
+				<span class="badge variant-outline-surface rounded-md ml-2 text-slate-400"
+					>Private Repo</span
+				>
+			{:else}
+				<Fa
+					icon={faArrowRight}
+					rotate={-45}
+					scale={0.8}
+					class="inline ml-2 group-hover:translate-x-1 group-hover:-translate-y-1 transition duration-150"
+				/>
+			{/if}
 		</h6>
 		<p class="mb-2 text-sm">
 			{description}
