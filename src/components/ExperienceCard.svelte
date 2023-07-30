@@ -41,9 +41,7 @@
 		<h6 class="h6 text-primary-50 mb-2">
 			{title}
 			{#if disableLink}
-				<span class="badge variant-outline-surface rounded-md ml-2 text-slate-400"
-					>Private Repo</span
-				>
+				<span class="badge variant-ghost-surface rounded-md ml-2 text-slate-400">Private Repo</span>
 			{:else}
 				<Fa
 					icon={faArrowRight}
@@ -75,7 +73,7 @@
 		<ul>
 			{#each skills as skill}
 				<li class="inline">
-					<span class="badge mt-2 mr-1 variant-ghost-secondary rounded-xl">{skill}</span>
+					<span class="badge mt-2 mr-1 variant-outline-secondary rounded-xl">{skill}</span>
 				</li>
 			{/each}
 		</ul>
