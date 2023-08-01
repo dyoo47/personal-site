@@ -38,7 +38,7 @@
 		</div>
 	{/if}
 	<div class="col-span-3 max-md:col-span-4">
-		<h6 class="h6 text-primary-50 mb-2">
+		<h6 class="h6 text-primary-50 mb-2 whitespace-nowrap">
 			{title}
 			{#if disableLink}
 				<span class="badge variant-ghost-surface rounded-md ml-2 text-slate-400">Private Repo</span>
@@ -57,7 +57,7 @@
 		<div class="mb-2">
 			<ul>
 				{#each links as link}
-					<li class="mr-4 mb-2 inline">
+					<li class="mr-4 inline-block">
 						<a
 							href={link.href}
 							target="_blank"

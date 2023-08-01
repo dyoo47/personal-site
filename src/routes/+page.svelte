@@ -9,24 +9,23 @@
 </script>
 
 <svelte:head><title>Daniel Yoo</title></svelte:head>
-<div class="container px-10 lg:px-20 mx-auto grid align-top grid-cols-1 lg:grid-cols-2">
+<div class="lg:container px-10 lg:px-20 mx-auto grid align-top grid-cols-1 lg:grid-cols-2">
 	<div class="lg:h-screen lg:pb-20 pt-20 grid lg:sticky lg:top-0 px-4">
-		<div>
+		<div class="md:w-1/2 lg:w-full">
 			<h1 class="h1 text-6xl">Daniel Yoo</h1>
 			<div class="my-2">
 				<span class="h4">SWE Intern at Liferay</span>
 			</div>
-			<p class="text-slate-400">
-				Frontend developer, computer graphics enthusiast,
-				<br /> avid boulderer/guitar player.
+			<p class="text-slate-400 lg:pr-28">
+				Frontend developer, computer graphics enthusiast, avid boulderer/guitar player.
 			</p>
-			<div class="my-20">
+			<div class="my-20 max-lg:hidden">
 				<Link href="#about">ABOUT</Link>
 				<Link href="#experience">EXPERIENCE</Link>
 				<Link href="#projects">PROJECTS</Link>
 			</div>
 		</div>
-		<div class="self-end flex mt-5 max-lg:hidden">
+		<div class="self-end flex mt-5 max-lg:pb-28">
 			<Button href="https://github.com/dyoo47/personal-site"><Fa icon={faCode} /></Button>
 			<Button href="https://github.com/dyoo47"><Fa icon={faGithub} /></Button>
 			<Button href="https://www.linkedin.com/in/danielnyoo/"><Fa icon={faLinkedin} /></Button>
@@ -35,6 +34,9 @@
 	</div>
 	<div class="text-slate-400 pb-20">
 		<section id="about" class="lg:pt-20">
+			<div class="px-4 mb-8 lg:hidden">
+				<span class="text-sm tracking-widest font-bold text-primary-50">ABOUT</span>
+			</div>
 			<div class="px-4">
 				<span>
 					I wrote my first ever line of code in grade school for a Minecraft mod. Since then, my
@@ -66,6 +68,9 @@
 		</section>
 		<div class="pt-28">
 			<section id="experience" class="pb-28">
+				<div class="px-4 mb-8 lg:hidden">
+					<span class="text-sm tracking-widest font-bold text-primary-50">EXPERIENCE</span>
+				</div>
 				<EducationCard
 					description="Math-CS Major, 3.4 GPA"
 					span="2020 - 2023"
@@ -119,6 +124,9 @@
 				>
 			</section>
 			<section id="projects" class="pb-20">
+				<div class="px-4 mb-8 lg:hidden">
+					<span class="text-sm tracking-widest font-bold text-primary-50">PROJECTS</span>
+				</div>
 				<ExperienceCard
 					href="https://github.com/dyoo47/svo-raytracer"
 					image="img/colorblobs.png"

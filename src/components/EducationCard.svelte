@@ -6,7 +6,7 @@
 </script>
 
 <span
-	class="mb-2 group grid grid-cols-4 bg-opacity-0 bg-slate-600 hover:bg-opacity-40 p-4 rounded transition duration-150 ease-in-out"
+	class="mb-2 lg:group grid grid-cols-4 bg-opacity-0 bg-slate-600 lg:hover:bg-opacity-40 px-4 lg:py-4 rounded transition duration-150 ease-in-out"
 >
 	<div class="col-span-1 max-md:hidden">
 		<span class="text-xs font-semibold text-slate-400">{span.toUpperCase()}</span>
