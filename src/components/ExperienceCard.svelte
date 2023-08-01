@@ -73,7 +73,9 @@
 		<ul>
 			{#each skills as skill}
 				<li class="inline">
-					<span class="badge mt-2 mr-1 variant-outline-secondary rounded-xl">{skill}</span>
+					<span class="badge text-secondary-400 mt-2 mr-1 variant-outline-secondary rounded-xl"
+						>{skill}</span
+					>
 				</li>
 			{/each}
 		</ul>
