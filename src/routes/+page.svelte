@@ -69,10 +69,12 @@
 		<div class="pt-28">
 			<section id="experience" class="pb-28">
 				<div class="px-4 mb-8 lg:hidden">
-					<span class="text-sm tracking-widest font-bold text-primary-50">EXPERIENCE</span>
+					<span class="text-sm tracking-widest font-bold text-primary-50"
+						>EXPERIENCE & EDUCATION</span
+					>
 				</div>
 				<EducationCard
-					description="Math-CS Major, 3.4 GPA"
+					description="B.S. in Mathematics-Computer Science, 3.4 GPA"
 					span="2020 - 2023"
 					title="UC San Diego"
 				/>
