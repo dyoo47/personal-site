@@ -26,10 +26,18 @@
 			</div>
 		</div>
 		<div class="self-end flex mt-5 max-lg:pb-28">
-			<Button href="https://github.com/dyoo47/personal-site"><Fa icon={faCode} /></Button>
-			<Button href="https://github.com/dyoo47"><Fa icon={faGithub} /></Button>
-			<Button href="https://www.linkedin.com/in/danielnyoo/"><Fa icon={faLinkedin} /></Button>
-			<Button href="https://twitter.com/danny_yoo19"><Fa icon={faTwitter} /></Button>
+			<Button ariaLabel="View this project on GitHub" href="https://github.com/dyoo47/personal-site"
+				><Fa icon={faCode} /></Button
+			>
+			<Button ariaLabel="View my GitHub profile" href="https://github.com/dyoo47"
+				><Fa icon={faGithub} /></Button
+			>
+			<Button ariaLabel="View my LinkedIn profile" href="https://www.linkedin.com/in/danielnyoo/"
+				><Fa icon={faLinkedin} /></Button
+			>
+			<Button ariaLabel="View my Twitter profile" href="https://twitter.com/danny_yoo19"
+				><Fa icon={faTwitter} /></Button
+			>
 		</div>
 	</div>
 	<div class="text-slate-400 pb-20">
@@ -131,7 +139,7 @@
 				</div>
 				<ExperienceCard
 					href="https://github.com/dyoo47/svo-raytracer"
-					image="img/colorblobs.png"
+					image="img/colorblobs.webp"
 					title="svo-raytracer"
 					description="Realtime Java/LWJGL voxel path tracer based on the paper Efficient Sparse
 					Voxel Octrees by Samuli Laine and Tero Karras. 2 bounces 1080p ~30fps, up to 2048^3 
@@ -156,7 +164,7 @@
 				/>
 				<ExperienceCard
 					href="#"
-					image="img/fearsha.png"
+					image="img/fearsha.webp"
 					title="Fearsha Frontend"
 					disableLink
 					description="Developed React/TS frontend for a payment and booking service designed for day-of 
@@ -176,7 +184,7 @@
 				/>
 				<ExperienceCard
 					href="https://www.thebluealliance.com/team/7157/2020"
-					image="img/frc2020.png"
+					image="img/frc2020.webp"
 					title="FRC 2019/2020 - Robot Code"
 					description="Led the software development of two competition bots. Highlights include an award-winning vision pipeline,
 						field position based shot calculation, and a PID controlled climb mechanism."

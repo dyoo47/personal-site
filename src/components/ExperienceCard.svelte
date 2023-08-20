@@ -41,7 +41,9 @@
 		<h6 class="h6 text-primary-50 mb-2 whitespace-nowrap">
 			{title}
 			{#if disableLink}
-				<span class="badge variant-ghost-surface rounded-md ml-2 text-slate-400">Private Repo</span>
+				<span class="badge variant-outline-surface rounded-md ml-2 text-slate-400"
+					>Private Repo</span
+				>
 			{:else}
 				<Fa
 					icon={faArrowRight}
