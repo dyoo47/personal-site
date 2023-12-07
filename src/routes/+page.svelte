@@ -14,7 +14,7 @@
 		<div class="md:w-1/2 lg:w-full">
 			<h1 class="h1 text-6xl">Daniel Yoo</h1>
 			<div class="my-2">
-				<span class="h4">SWE Intern at Liferay</span>
+				<span class="h4">Associate Software Consultant at Liferay</span>
 			</div>
 			<p class="text-slate-400 lg:pr-28">
 				Frontend developer, computer graphics enthusiast, avid boulderer/guitar player.
@@ -48,14 +48,13 @@
 			<div class="px-4">
 				<span>
 					I wrote my first ever line of code in grade school for a Minecraft mod. Since then, my
-					curiosity has led me to explore diverse domains— web development, <a
+					curiosity has led me to explore many domains— web development, <a
 						href="https://ldjam.com/users/klekky/games"
 						target="_blank"
 						class="font-bold text-primary-50 hover:text-primary-300"
 						>gamedev,
-					</a>computer graphics, and robotics— just to name a few. I take great pleasure in
-					immersing myself in novel concepts, readily embracing challenges and actively engaging in
-					practical implementation.
+					</a>computer graphics, and robotics— just to name a few. Confronting formidable challenges
+					and steep learning curves is my bread and butter.
 					<br />
 					<br />
 					When I'm not coding I like to destress(?) by five stacking with friends in
@@ -88,14 +87,14 @@
 				/>
 				<ExperienceCard
 					href="https://www.liferay.com/"
-					span="2023 - present"
+					span="MAY 2023 - Now"
 					location="Diamond Bar, CA"
-					title="SWE Intern - Liferay, Inc."
-					description="Full-time intern position in the Global Services consulting team, tasked
-						with creating an out-facing portal for a government financial department.
-						Designed and implemented 3 MVC web portlets under the OSGi specification
-						as extensions of Liferay’s main open-source product (Liferay DXP),
-						populated front-end React components with a mySQL database."
+					title="Assoc. Software Consultant - Liferay, Inc."
+					crossed="SWE Intern"
+					description="Full-stack development/consulting position. Tasked with providing strategies to 
+						third-party clients on how to optimally leverage Liferay DXP to meet their functional requirements. 
+						Multi-project experience using React/Freemarker/SCSS to create sleek and UX-friendly components 
+						that meet design specifications."
 					skills={['Java', 'JavaScript', 'React', 'OSGi', 'Liferay DXP', 'Jira', 'Github Actions']}
 				/>
 				<ExperienceCard

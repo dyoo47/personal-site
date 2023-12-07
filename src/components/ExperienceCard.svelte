@@ -12,6 +12,7 @@
 	export let image: string | undefined = undefined;
 	export let location: string = '';
 	export let title: string = '';
+	export let crossed: string | undefined = undefined;
 	export let description: string;
 	export let span: string = '';
 	export let href: string;
@@ -38,7 +39,7 @@
 		</div>
 	{/if}
 	<div class="col-span-3 max-md:col-span-4">
-		<h6 class="h6 text-primary-50 mb-2 whitespace-nowrap">
+		<h6 class="h6 text-primary-50 mb-2 whitespace-nowrap mt-[1px]">
 			{title}
 			{#if disableLink}
 				<span class="badge variant-outline-surface rounded-md ml-2 text-slate-400"
@@ -51,6 +52,10 @@
 					scale={0.8}
 					class="inline ml-2 group-hover:translate-x-1 group-hover:-translate-y-1 transition duration-150"
 				/>
+			{/if}
+			{#if crossed}
+				<br />
+				<s class="text-slate-400 leading-4">{crossed}</s>
 			{/if}
 		</h6>
 		<p class="mb-2 text-sm">
