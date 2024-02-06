@@ -14,7 +14,7 @@
 		<div class="md:w-1/2 lg:w-full">
 			<h1 class="h1 text-6xl">Daniel Yoo</h1>
 			<div class="my-2">
-				<span class="h4">Associate Software Consultant at Liferay</span>
+				<span class="h4">Software Engineer</span>
 			</div>
 			<p class="text-slate-400 lg:pr-28">
 				Frontend developer, computer graphics enthusiast, avid boulderer/guitar player.
@@ -87,7 +87,7 @@
 				/>
 				<ExperienceCard
 					href="https://www.liferay.com/"
-					span="MAY 2023 - Now"
+					span="MAY - DEC 2023"
 					location="Diamond Bar, CA"
 					title="Assoc. Software Consultant - Liferay, Inc."
 					crossed="SWE Intern"
@@ -218,12 +218,7 @@
 					>
 						Skeleton UI.</a
 					>
-					Layout heavily inspired by
-					<a
-						href="https://brittanychiang.com/"
-						target="_blank"
-						class="font-bold text-primary-50 hover:text-primary-300">Brittany Chiang.</a
-					>
+
 					Deployed using
 					<a
 						href="https://www.netlify.com/?attr=homepage-modal"
