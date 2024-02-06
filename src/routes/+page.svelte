@@ -14,7 +14,7 @@
 		<div class="md:w-1/2 lg:w-full">
 			<h1 class="h1 text-6xl">Daniel Yoo</h1>
 			<div class="my-2">
-				<span class="h4">Software Engineer</span>
+				<span class="h4">dyoo4747@gmail.com</span>
 			</div>
 			<p class="text-slate-400 lg:pr-28">
 				Frontend developer, computer graphics enthusiast, avid boulderer/guitar player.
