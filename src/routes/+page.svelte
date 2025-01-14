@@ -86,11 +86,31 @@
 					title="UC San Diego"
 				/>
 				<ExperienceCard
+					href="https://theimmersivecompany.com/"
+					span="OCT 2024"
+					location="Los Angeles, CA"
+					title="The Immersive Company"
+					subscript="Software Engineer (Contract)"
+					description="Built an interactive 3D intro sequence for a flagship VR immersive video app in RealityKit/visionOS. 
+						Engineered a custom animation engine leveraging 3D Bézier curves for smooth and dynamic visuals."
+					skills={['Swift', 'RealityKit', 'visionOS', 'Apple Vision Pro']}
+				/>
+				<ExperienceCard
+					href="#"
+					span="MAR - JUN 2024"
+					location="Los Angeles, CA"
+					title="Stealth Startup"
+					subscript="Software Engineer (Contract)"
+					description="Designed and implemented intuitive user-facing pages in Angular for a school admin tool. Architected end-to-end services
+						using Azure functions and an Azure SQL database."
+					skills={['Angular', 'Azure Functions', 'SQL', 'Java']}
+				/>
+				<ExperienceCard
 					href="https://www.liferay.com/"
 					span="MAY - DEC 2023"
 					location="Diamond Bar, CA"
-					title="Assoc. Software Consultant - Liferay, Inc."
-					crossed="SWE Intern"
+					title="Liferay, Inc."
+					subscript="Associate Software Consultant"
 					description="Full-stack development/consulting position. Tasked with providing strategies to 
 						third-party clients on how to optimally leverage Liferay DXP to meet their functional requirements. 
 						Multi-project experience using React/Freemarker/SCSS to create sleek and UX-friendly components 
@@ -101,19 +121,20 @@
 					href="https://www.thebluealliance.com/team/7157/2020"
 					span="SEP 2017 - 2020"
 					location="Brea, CA"
-					title="Lead Programmer - FRC 7157 μBotics"
+					title="FRC 7157 μBotics"
+					subscript="Lead Programmer"
 					description="Developed two competition bots with multi-threaded autonomous subroutines,
 						closed-loop control (PID), and an award-winning vision pipeline.
 						Integrated a suite of motor controllers and a Linux coprocessor (NVIDIA
 						Jetson Nano) over a network-table based interface. Taught and led a team of 8 peers 
-						throughout an intense twelve week sprint of competition, collaborated using git source control."
+						throughout an intense twelve week sprint of competition, collaborated using Git source control."
 					links={[
 						{
 							label: 'Creativity Award',
 							href: 'https://www.firstinspires.org/resource-library/frc/awards-based-on-machine-creativity-innovation'
 						}
 					]}
-					skills={['Java', 'Python', 'git', 'Closed loop control', 'OpenCV', 'Ubuntu']}
+					skills={['Java', 'Python', 'Git', 'Closed loop control', 'OpenCV', 'Ubuntu']}
 				/>
 				<a
 					href="/"
@@ -192,7 +213,53 @@
 						{ label: '2019 Recap', href: 'https://www.youtube.com/watch?v=QehlMgzTxbY' },
 						{ label: '2020 Recap', href: 'https://www.youtube.com/watch?v=Y51J-qdgaS8' }
 					]}
-					skills={['Java', 'Python', 'git', 'Closed loop control', 'OpenCV', 'Ubuntu']}
+					skills={['Java', 'Python', 'Git', 'Closed loop control', 'OpenCV', 'Ubuntu']}
+				/>
+				<ExperienceCard
+					href="#"
+					image="img/roguetactics.webp"
+					title="Rogue Tactics"
+					disableLink
+					description="Multiplayer roguelike with a heavy emphasis on class specialization and item-based progression. Built using Godot."
+					skills={['C#', 'Godot', 'Git', 'Multiplayer Networking', 'Godot Shaders']}
+				/>
+				<ExperienceCard
+					href="https://klekky.itch.io/pool-party-showdown"
+					image="img/poolparty.webp"
+					title="Pool Party Showdown"
+					description="Twin-stick beat 'em up game created in 7 days using Godot for the 2024 Pixel Game Jam. Officially judged as 5/5 stars
+					in the Mechanics, Pixel Art, Design, and Theme categories."
+					links={[
+						{ label: 'Github Repo', href: 'https://github.com/dyoo47/pixeljam' },
+						{ label: 'itch Page', href: 'https://klekky.itch.io/pool-party-showdown' },
+						{
+							label: 'Judge Ratings Sheet',
+							href: 'https://docs.google.com/spreadsheets/d/1c0v334z37rz990xFaIXvo07nHIE3d_mf3eYmbpquw6c/edit?gid=0#gid=0'
+						}
+					]}
+					skills={['C#', 'Godot', 'Git', 'Godot Shaders']}
+				/>
+				<ExperienceCard
+					href="https://swordguy47.itch.io/tetris-mendacium"
+					image="img/tetrismendacium.webp"
+					title="Tetris Mendacium"
+					description="Top-down puzzle game created in 7 days for the 2019 Community Game Jam. Developed with my brother in GameMaker Studio 2."
+					links={[{ label: 'itch Page', href: 'https://swordguy47.itch.io/tetris-mendacium' }]}
+					skills={['GameMaker Studio 2']}
+				/>
+				<ExperienceCard
+					href="https://klekky.itch.io/"
+					image="img/burger.webp"
+					title="Ludum Dare Entries (LD 38, 39, 40, 42, 44)"
+					description="A collection of browser games all created in under 72 hours for various Ludum Dare game jams."
+					links={[
+						{ label: 'Bitverse', href: 'https://klekky.itch.io/bitverse' },
+						{ label: 'Hypersquare', href: 'https://klekky.itch.io/hypersquare-post-jam' },
+						{ label: "Glutton's Heaven", href: 'https://klekky.itch.io/gluttons-heaven' },
+						{ label: 'Geobreak', href: 'https://klekky.itch.io/geo' },
+						{ label: 'goldenpixel', href: 'https://klekky.itch.io/goldenpixel' }
+					]}
+					skills={['Construct 2']}
 				/>
 			</section>
 			<section>

@@ -13,6 +13,7 @@
 	export let location: string = '';
 	export let title: string = '';
 	export let crossed: string | undefined = undefined;
+	export let subscript: string | undefined = undefined;
 	export let description: string;
 	export let span: string = '';
 	export let href: string;
@@ -52,6 +53,10 @@
 					scale={0.8}
 					class="inline ml-2 group-hover:translate-x-1 group-hover:-translate-y-1 transition duration-150"
 				/>
+			{/if}
+			{#if subscript}
+				<br />
+				<p class="text-slate-400 leading-4">{subscript}</p>
 			{/if}
 			{#if crossed}
 				<br />
