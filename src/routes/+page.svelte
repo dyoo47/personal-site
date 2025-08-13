@@ -92,7 +92,7 @@
 					location="San Diego, CA"
 					title="DeepWater Exploration"
 					subscript="Software Engineer"
-					description="Building the future of subsea vision!"
+					description="Building the future of subsea computer vision!"
 					skills={['C++', 'OpenGL']}
 				/>
 				<ExperienceCard
