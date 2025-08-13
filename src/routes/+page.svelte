@@ -85,6 +85,16 @@
 					span="2020 - 2023"
 					title="UC San Diego"
 				/>
+
+				<ExperienceCard
+					href="https://dwe.ai/pages/about"
+					span="APR 2025 - NOW"
+					location="San Diego, CA"
+					title="DeepWater Exploration"
+					subscript="Software Engineer"
+					description="Building the future of subsea vision!"
+					skills={['C++', 'OpenGL']}
+				/>
 				<ExperienceCard
 					href="https://theimmersivecompany.com/"
 					span="OCT 2024"
